@@ -1,38 +1,44 @@
-# React-Landing-Page-Template
-Quickly bring up a landing page for your app on desktop and mobile.
+# TimeOff Landing Page
 
-## Live Demo
-https://jomimi.com
+This is the README file for the TimeOff Landing Page app.
 
-https://voiceqna.com
+## Description
 
-https://amplichat.com
+The TimeOff Landing Page is a web application that serves as the landing page for the TimeOff app. It provides information about the app and its features, as well as links to relevant resources.
 
-## Desktop Demo
+## Features
 
-![desktop_gif](https://github.com/sugia/React-Landing-Page-Template/assets/2340878/2c80683a-b574-4d8f-8200-ae3984bb9794)
+- Responsive design
+- Clear and concise information
+- Easy navigation
 
-## Mobile Demo
+## Installation
 
-![mobile_gif](https://github.com/sugia/React-Landing-Page-Template/assets/2340878/fc8b7f2f-734c-4192-bd87-a497322280d2)
+To install and run the TimeOff Landing Page locally, follow these steps:
 
-## Getting Started
-```
-git clone https://github.com/sugia/React-Landing-Page-Template.git
+1. Clone the repository: `git clone https://github.com/your-username/TimeOff-Landing-Page.git`
+2. Navigate to the project directory: `cd TimeOff-Landing-Page`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-cd React-Landing-Page-Template
-
-npm i
-
-npm run start
-```
 ## Usage
 
-Website metadata can be found in the ```public/``` folder.
+To use the TimeOff Landing Page, simply open the `index.html` file in your web browser.
 
-Parameters to customize ```src/Desktop.js``` and ```src/Mobile.js``` can be found in ```src/store/Context.js```.
+## Contributing
 
-Images should be saved inside the ```src/images/``` folder.
+Contributions are welcome! If you would like to contribute to the TimeOff Landing Page, please follow these guidelines:
+
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add your commit message'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request
 
 ## License
-This codebase is licensed under [Apache License 2.0](https://github.com/sugia/React-Landing-Page-Template/blob/main/LICENSE). For more information, see the LICENSE file in this repository.
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or suggestions, please feel free to contact us at [email@example.com](mailto:email@example.com).
