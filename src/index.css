@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url("../src/fonts/Antonio-VariableFont_wght.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Black.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Bold.ttf") format('ttf'),
+        url("../src/fonts/Cairo-ExtraLight.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Light.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Regular.ttf") format('ttf'),
+        url("../src/fonts/Cairo-SemiBold.ttf") format('ttf'),
+        url("../src/fonts/Cairo-ExtraBold.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Medium.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabic.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicBold.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicLight.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicMedium.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicBlack.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicUltra.ttf") format('ttf'),
+        url("../src/fonts/MonumentExtended-Regular.otf") format('otf'),
+        url("../src/fonts/MonumentExtended-Ultrabold.otf") format('otf');
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
+}
+body {
+  margin: 0;
+  font-family:cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

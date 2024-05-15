@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url("../src/fonts/Antonio-VariableFont_wght.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Black.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Bold.ttf") format('ttf'),
+        url("../src/fonts/Cairo-ExtraLight.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Light.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Regular.ttf") format('ttf'),
+        url("../src/fonts/Cairo-SemiBold.ttf") format('ttf'),
+        url("../src/fonts/Cairo-ExtraBold.ttf") format('ttf'),
+        url("../src/fonts/Cairo-Medium.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabic.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicBold.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicLight.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicMedium.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicBlack.ttf") format('ttf'),
+        url("../src/fonts/NeoSansArabicUltra.ttf") format('ttf'),
+        url("../src/fonts/MonumentExtended-Regular.otf") format('otf'),
+        url("../src/fonts/MonumentExtended-Ultrabold.otf") format('otf');
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
+}
+.App {
+  text-align: center;
+  font-family: CustomFont;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
