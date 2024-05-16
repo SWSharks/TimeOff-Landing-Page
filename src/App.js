@@ -4,7 +4,7 @@ import { BrowserRouter, useRoutes } from 'react-router-dom'
 
 import Desktop from './Desktop'
 import Mobile from './Mobile'
-import Cookies from './policy/cookies'
+import ReturnRefundPolicy from './policy/return-refund-policy'
 import Privacy from './policy/privacy'
 import Terms from './policy/terms'
 
@@ -25,7 +25,7 @@ import {
 function RouteElementsDesktop() {
   const routeElements = useRoutes([
     { path: '/', element: <Desktop /> },
-    { path: '/policy/cookies', element: <Cookies /> },
+    { path: '/policy/return', element: <ReturnRefundPolicy /> },
     { path: '/policy/privacy', element: <Privacy /> },
     { path: '/policy/terms', element: <Terms /> },
   ]);
@@ -35,7 +35,7 @@ function RouteElementsDesktop() {
 function RouteElementsMobile() {
   const routeElements = useRoutes([
     { path: '/', element: <Mobile /> },
-    { path: '/policy/cookies', element: <Cookies /> },
+    { path: '/policy/cookies', element: <ReturnRefundPolicy /> },
     { path: '/policy/privacy', element: <Privacy /> },
     { path: '/policy/terms', element: <Terms /> },
   ]);

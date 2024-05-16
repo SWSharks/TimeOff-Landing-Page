@@ -15,6 +15,7 @@ import { DownloadOutlined } from "@ant-design/icons";
 import { motion } from "framer-motion";
 
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 import { Context } from "./store/Context";
 
@@ -401,35 +402,23 @@ function Desktop() {
                 <Typography>Who we are</Typography>
               </Row>
               <Row justify="start" align="middle">
-                <a
-                  href={"/policy/cookies"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link to="/policy/return">
                   <Typography.Title level={5}>
                     Return and refund
                   </Typography.Title>
-                </a>
+                </Link>
               </Row>
               <Row justify="start" align="middle">
-                <a
-                  href={"/policy/privacy"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link to="/policy/privacy">
                   <Typography.Title level={5}>Privacy Policy</Typography.Title>
-                </a>
+                </Link>
               </Row>
               <Row justify="start" align="middle">
-                <a
-                  href={"/policy/terms"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link to="/policy/terms">
                   <Typography.Title level={5}>
                     Terms of Service
                   </Typography.Title>
-                </a>
+                </Link>
               </Row>
             </Col>
 

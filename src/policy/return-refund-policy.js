@@ -1,6 +1,6 @@
 import { Typography, Row, Col } from "antd";
 
-function Cookies() {
+function ReturnRefundPolicy() {
   return (
     <Typography component="div" style={{ height: "100vh", overflow: "auto" }}>
       <Row type="flex" justify="center" style={{ margin: "20px" }}>
@@ -18,7 +18,7 @@ function Cookies() {
           </Typography.Paragraph>
 
           <Typography.Paragraph>
-            <strong>Returns:</strong> You have [number of days] calendar days to
+            <strong>Returns:</strong> You have 14 calendar days to
             return an item from the date you received it. To be eligible for a
             return, your item must be unused and in the same condition that you
             received it. Your item must be in the original packaging.
@@ -53,4 +53,4 @@ function Cookies() {
   );
 }
 
-export default Cookies;
+export default ReturnRefundPolicy;

@@ -16,6 +16,8 @@ import { motion } from "framer-motion";
 
 import { useContext } from "react";
 
+import { Link } from "react-router-dom";
+
 import { Context } from "./store/Context";
 
 // props: sectionItem, backgroundColor
@@ -226,37 +228,25 @@ function Mobile() {
                 <Typography>Who we are</Typography>
               </Row>
               <Row justify="start" align="middle" style={{ marginTop: "20px" }}>
-                <a
-                  href={state.appURL + "/policy/cookies"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link to="/policy/return">
                   <Typography.Title level={5} style={{ margin: "0px" }}>
                     Return and refund
                   </Typography.Title>
-                </a>
+                </Link>
               </Row>
               <Row justify="start" align="middle" style={{ marginTop: "20px" }}>
-                <a
-                  href={state.appURL + "/policy/privacy"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link to="/policy/privacy">
                   <Typography.Title level={5} style={{ margin: "0px" }}>
                     Privacy Policy
                   </Typography.Title>
-                </a>
+                </Link>
               </Row>
               <Row justify="start" align="middle" style={{ marginTop: "20px" }}>
-                <a
-                  href={state.appURL + "/policy/terms"}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link to="/policy/terms">
                   <Typography.Title level={5} style={{ margin: "0px" }}>
                     Terms of Service
                   </Typography.Title>
-                </a>
+                </Link>
               </Row>
             </Col>
 
