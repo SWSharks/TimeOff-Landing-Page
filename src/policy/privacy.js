@@ -10,7 +10,7 @@ function Privacy() {
                 </Typography.Title>
 
                 <Typography.Paragraph>
-                    Last updated: May 9, 2023
+                    Last updated: May 19, 2024
                 </Typography.Paragraph>
 
                 <Typography.Title level={3}>
@@ -18,15 +18,15 @@ function Privacy() {
                 </Typography.Title>
 
                 <Typography.Paragraph>
-                    Thank you for choosing to be part of our community at Amplichat LLC (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at contact@amplichat.com.
+                    Thank you for choosing to be part of our community at TimeOff LLC (“Company”, “we”, “us”, or “our”). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about our notice, or our practices with regards to your personal information, please contact us at info@time-off.org.
                 </Typography.Paragraph>
 
                 <Typography.Paragraph>
-                    When you visit our website <a href='https://amplichat.com' rel="noopener noreferrer" target='_blank' style={{'color': 'blue'}}>https://amplichat.com</a>, mobile application, Facebook application, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Sites or Apps and our services.
+                    When you visit our website, mobile application, Facebook application, and use our services, you trust us with your personal information. We take your privacy very seriously. In this privacy notice, we seek to explain to you in the clearest way possible what information we collect, how we use it and what rights you have in relation to it. We hope you take some time to read through it carefully, as it is important. If there are any terms in this privacy notice that you do not agree with, please discontinue use of our Sites or Apps and our services.
                 </Typography.Paragraph>
 
                 <Typography.Paragraph>
-                    This privacy notice applies to all information collected through our website (such as <a href='https://amplichat.com' rel="noopener noreferrer" target='_blank' style={{'color': 'blue'}}>https://amplichat.com</a>), mobile application, Facebook application, ("Apps"), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy notice as the "Services").
+                    This privacy notice applies to all information collected through our website, mobile application, Facebook application, ("Apps"), and/or any related services, sales, marketing or events (we refer to them collectively in this privacy notice as the "Services").
                 </Typography.Paragraph>
 
                 <Typography.Paragraph>
@@ -451,7 +451,7 @@ function Privacy() {
                 </Typography.Paragraph>
 
                 <Typography.Paragraph>
-                    We do not knowingly solicit data from or market to children under 18 years of age. By using the Services or Apps, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services or Apps. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at contact@amplichat.com.
+                    We do not knowingly solicit data from or market to children under 18 years of age. By using the Services or Apps, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services or Apps. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we have collected from children under age 18, please contact us at info@time-off.org.
                 </Typography.Paragraph>
 
 
@@ -476,7 +476,7 @@ function Privacy() {
                 </Typography.Paragraph>
 
                 <Typography.Paragraph>
-                    If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details <a href='https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=612080' rel="noopener noreferrer" target='_blank' style={{'color': 'blue'}}>here</a> If you have questions or comments about your privacy rights, you may email us at contact@amplichat.com.
+                    If you are resident in the European Economic Area and you believe we are unlawfully processing your personal information, you also have the right to complain to your local data protection supervisory authority. You can find their contact details <a href='https://ec.europa.eu/newsroom/article29/item-detail.cfm?item_id=612080' rel="noopener noreferrer" target='_blank' style={{'color': 'blue'}}>here</a> If you have questions or comments about your privacy rights, you may email us at infi@time-off.org.
                 </Typography.Paragraph>
 
                 <Typography.Title level={4}>

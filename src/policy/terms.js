@@ -8,7 +8,7 @@ function Terms() {
           <Typography component="div" style={{ marginLeft: "40px" }}>
             <Typography.Title level={1}>Privacy Policy</Typography.Title>
             <Typography.Paragraph>
-              Effective Date: 2023-05-09
+              Effective Date: 2024-05-19
             </Typography.Paragraph>
 
             <Typography.Paragraph>
@@ -124,8 +124,7 @@ function Terms() {
 
             <Typography.Paragraph>
               If you have any questions or concerns about our Privacy Policy or
-              data practices, please contact us at [insert contact email or
-              address].
+              data practices, please contact us at info@time-off.org.
             </Typography.Paragraph>
 
             <Typography.Title level={2}>
@@ -148,7 +147,7 @@ function Terms() {
             </Typography.Paragraph>
 
             <Typography.Paragraph>
-              This Privacy Policy was last updated on [Insert Date].
+              This Privacy Policy was last updated on 19th May 2024.
             </Typography.Paragraph>
           </Typography>
         </Col>
