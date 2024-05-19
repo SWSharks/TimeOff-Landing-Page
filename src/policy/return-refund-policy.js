@@ -14,9 +14,11 @@ function ReturnRefundPolicy() {
           <Typography.Title level={3}>Payment at Time off</Typography.Title>
 
           <Typography.Paragraph>
-          1. The Booking Price for the Activity is payable immediately upon booking confirmation. <br/>
-          2. If the booking is confirmed, and the payment is not made, we will automatically cancel the Activity you booked. <br/>
-          3. We are your contact in connection with a Service Agreement and payment therefore as the commercial agent of the Supplier. If you wish to request a refund of the Booking Price outside of our cancellation policy, you may contact us. We will then contact the Supplier, and the Supplier will determine in its discretion whether to honor the refund request. A refund granted by the Supplier can be processed by the Supplier through us. <br/>
+            <ol>
+              <li>The Booking Price for the Activity is payable immediately upon booking confirmation.</li>
+              <li>If the booking is confirmed, and the payment is not made, we will automatically cancel the Activity you booked.</li>
+              <li>We are your contact in connection with a Service Agreement and payment therefore as the commercial agent of the Supplier. If you wish to request a refund of the Booking Price outside of our cancellation policy, you may contact us. We will then contact the Supplier, and the Supplier will determine in its discretion whether to honor the refund request. A refund granted by the Supplier can be processed by the Supplier through us.</li>
+            </ol>
           </Typography.Paragraph>
 
           <Typography.Title level={3}>Changes and Cancellations</Typography.Title>
